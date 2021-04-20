@@ -188,8 +188,8 @@ public class Lexer {
         specialCharacter.put("ref", Tokens.REF);
         specialCharacter.put("=", Tokens.ASSIGNMENT_OP);
         specialCharacter.put("!", Tokens.NOT_OP);
-        specialCharacter.put("true", Tokens.TRUE);
-        specialCharacter.put("false", Tokens.FALSE);
+        specialCharacter.put("true", Tokens.BOOLEAN);
+        specialCharacter.put("false", Tokens.BOOLEAN);
     }
 
 }
