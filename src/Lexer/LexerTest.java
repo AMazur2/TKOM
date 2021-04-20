@@ -124,8 +124,8 @@ public class LexerTest {
         expected.add(new Token(Tokens.IDENTIFIER, new Position(20,14), "a"));
         expected.add(new Token(Tokens.RETURN, new Position(1,15), "return"));
         expected.add(new Token(Tokens.REF, new Position(1,16), "ref"));
-        expected.add(new Token(Tokens.TRUE, new Position(1,17), "true"));
-        expected.add(new Token(Tokens.FALSE, new Position(1,18), "false"));
+        expected.add(new Token(Tokens.BOOLEAN, new Position(1,17), "true"));
+        expected.add(new Token(Tokens.BOOLEAN, new Position(1,18), "false"));
 
         return expected;
     }
