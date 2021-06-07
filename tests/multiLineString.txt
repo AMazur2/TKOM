@@ -1,6 +1,0 @@
-mess
-"bardzo
-dlugi
-string"
-=
--546
